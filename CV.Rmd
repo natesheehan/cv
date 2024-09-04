@@ -1,0 +1,99 @@
+---
+name: Nathanael
+surname: Sheehan
+position: "PhD Student"
+address: "College of Engineering, Mathematics and Physical Sciences"
+pronouns: he/him
+phone: +44 7584288739
+www: nsheehan.vercel.com
+email: "ns651@exeter.ac.uk"
+twitter: thanaelsheehan
+github: natesheehan
+linkedin: nathanaelsheehan
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+---
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# About
+
+My research explores data in the post-genomic age, focusing on the politics and philosophy of ‘open science’: a new approach to the scientific process based on cooperative work and new ways of diffusing knowledge by using digital technologies and new collaborative tools. Combining approaches from philosophy of science, computer science and science and technology studies, my doctoral thesis is grounded in the case of genomic surveillance, examining the historical and cultural elements at play in the dissemination and preservation of data in a crisis. Central to my research is the publication of free and open-source software. I am interested in the application of machine learning/deep learning tools and techniques in the context of pattern recognition in large scale data analytics, while also focusing on creative and artistic plotting of scientific data.
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "BSc Computer Science (1st)", "2014-2018", "Manchester Metropolitan University", "Manchester, UK",
+  "Master of Smart Cities and Urban Analytics (Distinction)", "2019-2020", "University College London", "London, UK",
+  "PhD Environmental Intelligence", "2021-2025", "Exeter University", "Exeter, UK"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Work Expereince
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Software Engineer", "2017-2019", "RetalMeNot", "London, UK",
+  "Research Assistant", "2020", "University College London", "Remote",
+  "Geographical Information System Engineer", "2021", "Bristol City Council", "Remote",
+  "Research Engineer", "2021", "Oxford University", "Remote",
+  "Research Felllow", "2021-2022", "Leeds University", "Remote",
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Research Software
+
+- Joseph Talbot, M. L.-S., Nathanael Sheehan. (2021). ActDev.
+- Robin Lovelace, L. H., & Sheehan, N. (2021). Pct: Propensity to cycle tool.
+- Sheehan, N. (2022). Thames21 socio-ecological data.
+- Sheehan, N. (2022). Dimaqdata: Data integration model for air quality data.
+- Sheehan, N., Lovelace, R., Nederlof, T., & Carlino, D. (2022). Abstr: R interface to the a/b street transport system simulation software.
+- Sheehan, N (2022). IndoorRSSI: Indoor Received Signal Strength Indicator
+- Sheehan, N (2023). eaCatcheR: The eaCatcheR R package provides an interface to data from the environment.data.gov.uk catchment planner.
+- Sheehan, N (2023). Gigwork Stories: Doing Gig Work, a research project which studies the management, solidarity and resistance of platform food couriers in Manchester (UK), Cluj-Napoca (Romania) and Lyon (France).
+- Sheehan, N (2023). C2A: CTA contains the code and data used to produce the results presented in the paper "From collection to analysis: A comparison of GISAID and the Covid-19 Data Portal.
+
+# Publications
+
+- Talbot, J., Lucas-Smith, M., Speakman, A., Streb, M., Nuttall, S., Carlino, D., Johansson, P., Sheehan, N., Groot, N., & Lovelace, R. (2022). Active Travel Oriented Development: Assessing the suitability of sites for new homes. European Journal of Transport and Infrastructure Research, 22(4), 51–72. https://doi.org/10.18757/ejtir.2022.22.4.6015
+
+- From Collection to Analysis: A Comparison of GISAID and the Covid-19 Data Portal; Nathanael Sheehan, Sabina Leonelli, Federico Botta
+bioRxiv 2023.05.13.540634; doi: https://doi.org/10.1101/2023.05.13.540634
+
+
+# Presentations
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  2020, "Digital Ecologies, Online", "Performing digital water publics: a computational approach",
+  2021, "Decarbon8, Online", "Working with origin-destination and activity data to model decarbonisation",
+  2021, "Intelligent Machines, Emotions, and Our Planet, Online", "Linking Sentiment with River Health in the Thames Basin",
+  2021, "Modelling World, Online", "The ActDev Project",
+  
+  2022, "Data Crunch, Online", "Open Data in the Private Industry",
+  2022, "Philosophy of Open Science open meeting, Online", "Responsible Repositories",
+  2022, "PhilInBioMed conference, Pittsburgh", "Analysis of COVID-19 sequencing platforms ",
+  2023, "Research Data Alliance, Gothenburg", "Analysis of COVID-19 sequencing platforms ",
+  2023, "Institute for Data Science and AI, Exeter", "Analysis of COVID-19 sequencing platforms ",
+  2023, "PHIL_OS Exploratory Conference, Exeter", "Open Data and Software in Science",
+  2023, "International Society for the History, Philosophy and Social Studies of biology, Toronto", "Covid-19 Genomic Data: Diverse Enough?",
+) %>% 
+  brief_entries(
+    Type,
+    Year, 
+    Desc
+  )
+```
+
