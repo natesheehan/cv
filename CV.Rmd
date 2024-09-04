@@ -73,8 +73,8 @@ tribble(
 - Sheehan, N (2022). IndoorRSSI: Indoor Received Signal Strength Indicator
 - Sheehan, N (2023). eaCatcheR: The eaCatcheR R package provides an interface to data from the environment.data.gov.uk catchment planner.
 - Sheehan, N (2023). Gigwork Stories: Doing Gig Work, a research project which studies the management, solidarity and resistance of platform food couriers in Manchester (UK), Cluj-Napoca (Romania) and Lyon (France).
-- Sheehan, N (2023). C2A: CTA contains the code and data used to produce the results presented in the paper "From collection to analysis: A comparison of GISAID and the Covid-19 Data Portal.
-
+- Sheehan, N (2023). C2A: contains the code and data used to produce the results presented in the paper "Unrestricted versus Regulated Open Data Governance: A Bibliometric Comparison of SARS-CoV-2 Nucleotide Sequence Databases".
+- Sheehan, N (2023). RENA: The rena package provides tools for bulk downloading read/analysis files from ENA via FTP using the `ena-ftp-downloader`.
 
 # Research Presentations
 
