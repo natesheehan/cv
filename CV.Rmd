@@ -20,7 +20,7 @@ library(vitae)
 ```
 
 # About
-I am Nathanael Sheehan (he/him) a first year doctoral candidate at the University of Exeter, where my research focuses on the "Diversity and Injustice of Open Research Environments". This research is generously funded by the EPSRC Centre for Doctoral Training in Environmental Intelligence and is a component of the project "Philosophy of Open Science for Diverse Research Environments" run by Professor Sabina Leoneli. I aim to shift the perception of OS from an object-oriented perspective, which perceives it as a capitalist paradigm built on perpetual growth and speculative profit, to an ethical understanding that positions openness as the cultivation of judicious collaborations amongst researchers.
+I am Nathanael Sheehan (he/him) a first year doctoral candidate at the University of Exeter, where my research focuses on the "Diversity and Injustice of Open Research Environments". This research is generously funded by the EPSRC Centre for Doctoral Training in Environmental Intelligence and is a component of the project "Philosophy of Open Science for Diverse Research Environments" run by Professor Sabina Leoneli.
 
 
 
@@ -48,7 +48,8 @@ tribble(
   "Geographical Information System Engineer", "2021", "Bristol City Council", "Remote",
   "Research Engineer", "2021", "Oxford University", "Remote",
   "Research Fellow", "2021-2022", "Leeds University", "Remote",
-  "Research Assistant", "2024", "Exeter University", "Exeter, UK"
+  "Research Assistant", "2024", "Exeter University", "Exeter, UK",
+  "Post-Doctoral Researcher", "2025", "Technical University Munich", "Munich, Germany"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -60,7 +61,7 @@ tribble(
 
 - Sheehan, N., Botta, F. and Leonelli, S. (2024) ‘Unrestricted Versus Regulated Open Data Governance: A Bibliometric Comparison of SARS-CoV-2 Nucleotide Sequence Databases’, <i>Data Science Journal</i>, 23(1), p. 29. Available at: https://doi.org/10.5334/dsj-2024-029
 
-- Sheehan, Nathanael & Leonelli, Sabina, Reconciling Data Actionability and Accountability in Global Health Research. Available at: https://philpapers.org/rec/SHERDA-4
+- Sheehan, N., & Leonelli, S. (2024). Reconciling data actionability and accountability in global health research: The case of SARS-CoV-2. Global Public Health, 20(1). https://doi.org/10.1080/17441692.2024.2436422
 
 
 # Research Software
@@ -73,8 +74,10 @@ tribble(
 - Sheehan, N (2022). IndoorRSSI: Indoor Received Signal Strength Indicator
 - Sheehan, N (2023). eaCatcheR: The eaCatcheR R package provides an interface to data from the environment.data.gov.uk catchment planner.
 - Sheehan, N (2023). Gigwork Stories: Doing Gig Work, a research project which studies the management, solidarity and resistance of platform food couriers in Manchester (UK), Cluj-Napoca (Romania) and Lyon (France).
-- Sheehan, N (2023). C2A: contains the code and data used to produce the results presented in the paper "Unrestricted versus Regulated Open Data Governance: A Bibliometric Comparison of SARS-CoV-2 Nucleotide Sequence Databases".
 - Sheehan, N (2023). RENA: The rena package provides tools for bulk downloading read/analysis files from ENA via FTP using the `ena-ftp-downloader`.
+- Sheehan, N (2024). C2A: contains the code and data used to produce the results presented in the paper "Unrestricted versus Regulated Open Data Governance: A Bibliometric Comparison of SARS-CoV-2 Nucleotide Sequence Databases".
+- Alcalay, R. B., Sheehan, N., & Trappes, R. (2025). conceptcartography (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.1234
+
 
 # Research Presentations
 
@@ -85,7 +88,6 @@ tribble(
   2021, "Decarbon8, Online", "Working with origin-destination and activity data to model decarbonisation",
   2021, "Intelligent Machines, Emotions, and Our Planet, Online", "Linking Sentiment with River Health in the Thames Basin",
   2021, "Modelling World, Online", "The ActDev Project",
-  
   2022, "Data Crunch, Online", "Open Data in the Private Industry",
   2022, "Philosophy of Open Science open meeting, Online", "Responsible Repositories",
   2022, "PhilInBioMed conference, Pittsburgh", "Analysis of COVID-19 sequencing platforms ",
@@ -93,8 +95,11 @@ tribble(
   2023, "Institute for Data Science and AI, Exeter", "Analysis of COVID-19 sequencing platforms ",
   2023, "PHIL_OS Exploratory Conference, Exeter", "Open Data and Software in Science",
   2023, "International Society for the History, Philosophy and Social Studies of biology, Toronto", "Covid-19 Genomic Data: Diverse Enough?",
-  2024, "Understanding Life in a Changing Planet
-, Exeter", "Between Open and Closed Data: A metascientific study on global health data practices",
+  2024, "Understanding Life in a Changing Planet, Exeter", "Between Open and Closed Data: A metascientific study on global health data practices",
+  2024, "Philosophy of Science Association, New Orleans", "Particpatory Informational Format Exclusion", 
+  2025, "European Bioinformatics Institute, Hinxton", "A journey from data ethics to AI governance", 
+  2025, "International Society for the History, Philosophy and Social Studies of biology, Porto", "Data Brokers in Broken Data Communities"
+
 ) %>% 
   brief_entries(
     Type,
@@ -102,5 +107,3 @@ tribble(
     Desc
   )
 ```
-
-
