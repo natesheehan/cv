@@ -20,7 +20,7 @@ library(vitae)
 ```
 
 # About
-I am Nathanael Sheehan (he/him) a first year doctoral candidate at the University of Exeter, where my research focuses on the "Diversity and Injustice of Open Research Environments". This research is generously funded by the EPSRC Centre for Doctoral Training in Environmental Intelligence and is a component of the project "Philosophy of Open Science for Diverse Research Environments" run by Professor Sabina Leoneli. My doctoral research seeks to construct an empirically informed philosophy of Open Science (OS) that acknowledges the varied research environments globally and strives to delineate the circumstances wherein OS can harness this diversity to foster exemplary research practices. To address these conditions, I develop a philosophical analysis of the epistemic significance of research environments with quantitative research on how researchers working in different environments enact and conceptualize OS, specifically within the spheres of virology and global health. My methodological framework draws inspiration from the "philosophy of science in practice" (PSP) approach, providing a comprehensive lens to explore the nuances of OS and facilitate fruitful collaborations between scientists and policymakers. Central to my thesis is the objective of critically re-envisioning OS. I aim to shift the perception of OS from an object-oriented perspective, which perceives it as a capitalist paradigm built on perpetual growth and speculative profit, to an ethical understanding that positions openness as the cultivation of judicious collaborations amongst researchers.
+I am Nathanael Sheehan (he/him) a first year doctoral candidate at the University of Exeter, where my research focuses on the "Diversity and Injustice of Open Research Environments". This research is generously funded by the EPSRC Centre for Doctoral Training in Environmental Intelligence and is a component of the project "Philosophy of Open Science for Diverse Research Environments" run by Professor Sabina Leoneli. I aim to shift the perception of OS from an object-oriented perspective, which perceives it as a capitalist paradigm built on perpetual growth and speculative profit, to an ethical understanding that positions openness as the cultivation of judicious collaborations amongst researchers.
 
 
 
@@ -102,4 +102,5 @@ tribble(
     Desc
   )
 ```
+
 
