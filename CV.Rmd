@@ -3,8 +3,7 @@ name: Nathanael
 surname: Sheehan
 position: "PhD Student"
 address: "College of Engineering, Mathematics and Physical Sciences"
-pronouns: he/him
-phone: +44 7584288739
+pronouns: he/him/they
 www: nsheehan.vercel.com
 email: "ns651@exeter.ac.uk"
 twitter: thanaelsheehan
@@ -19,8 +18,9 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
+
 # About
-I am Nathanael Sheehan (he/him) a first year doctoral candidate at the University of Exeter, where my research focuses on the "Diversity and Injustice of Open Research Environments". This research is generously funded by the EPSRC Centre for Doctoral Training in Environmental Intelligence and is a component of the project "Philosophy of Open Science for Diverse Research Environments" run by Professor Sabina Leoneli.
+I am a philosopher and sociologist of science working in the chair of Philosophy and History of Science and Technology at the Technical University Munich. My core research areas include: the philosophy of (open) data, the sociology of (scientific) standards, and environmental intelligence. I draw on mixed methods such as quantitative modelling, ethnographic observations and semi structured interviews in order to understand the historical, philosophical, social and technical dimensions 
 
 
 
@@ -32,7 +32,7 @@ tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
   "BSc Computer Science (1st)", "2014-2018", "Manchester Metropolitan University", "Manchester, UK",
   "Master of Smart Cities and Urban Analytics (Distinction)", "2019-2020", "University College London", "London, UK",
-  "PhD Environmental Intelligence", "2021-2026", "Exeter University", "Exeter, UK"
+  "PhD Environmental Intelligence", "2021-2025", "Exeter University", "Exeter, UK"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -59,10 +59,13 @@ tribble(
 
 - Talbot, J., Lucas-Smith, M., Speakman, A., Streb, M., Nuttall, S., Carlino, D., Johansson, P., Sheehan, N., Groot, N., & Lovelace, R. (2022). Active Travel Oriented Development: Assessing the suitability of sites for new homes. European Journal of Transport and Infrastructure Research, 22(4), 51–72. https://doi.org/10.18757/ejtir.2022.22.4.6015
 
-- Sheehan, N., Botta, F. and Leonelli, S. (2024) ‘Unrestricted Versus Regulated Open Data Governance: A Bibliometric Comparison of SARS-CoV-2 Nucleotide Sequence Databases’, <i>Data Science Journal</i>, 23(1), p. 29. Available at: https://doi.org/10.5334/dsj-2024-029
+- Sheehan, N., Botta, F. and Leonelli, S. (2024) Unrestricted Versus Regulated Open Data Governance: A Bibliometric Comparison of SARS-CoV-2 Nucleotide Sequence Databases. Data Science Journal, 23: 29, pp. 1–29. DOI: https://doi.org/10.5334/dsj2024-029
 
-- Sheehan, N., & Leonelli, S. (2024). Reconciling data actionability and accountability in global health research: The case of SARS-CoV-2. Global Public Health, 20(1). https://doi.org/10.1080/17441692.2024.2436422
+- Sheehan, N., & Leonelli, S. (2025). Reconciling data actionability and accountability in global health research: The case of SARS-CoV-2. Global Public Health, 20(1). https://doi.org/10.1080/17441692.2024.2436422
 
+- Chatikobo, T., Griffiths, F., Hayden, N., Leeming, G., Mishra, A., Morris, E., Schirru, L., Sheehan, N., Williams, A. & Sekalala, S. (2026). Open Science, Health Data and Epistemic Harms: A Multidisciplinary Reflection. Data Science Journal, 25(1), 15-15. https://doi.org/10.5334/dsj-2026-015
+
+- Sheehan, N. (2026). The Sequence and the Standard: An Account of Participatory Informational Format Exclusion (PIFE). Social Epistemology, 1–13. https://doi.org/10.1080/02691728.2026.2682153
 
 # Research Software
 
@@ -77,7 +80,7 @@ tribble(
 - Sheehan, N (2023). RENA: The rena package provides tools for bulk downloading read/analysis files from ENA via FTP using the `ena-ftp-downloader`.
 - Sheehan, N (2024). C2A: contains the code and data used to produce the results presented in the paper "Unrestricted versus Regulated Open Data Governance: A Bibliometric Comparison of SARS-CoV-2 Nucleotide Sequence Databases".
 - Alcalay, R. B., Sheehan, N., & Trappes, R. (2025). conceptcartography (Version 1.0.0) [Computer software]. https://doi.org/10.5281/zenodo.1234
-
+- Sheehan, N (2026). Pianeta Lab - Storie di Insetti: Multi-modal stories of insects.
 
 # Research Presentations
 
@@ -98,7 +101,9 @@ tribble(
   2024, "Understanding Life in a Changing Planet, Exeter", "Between Open and Closed Data: A metascientific study on global health data practices",
   2024, "Philosophy of Science Association, New Orleans", "Particpatory Informational Format Exclusion", 
   2025, "European Bioinformatics Institute, Hinxton", "A journey from data ethics to AI governance", 
-  2025, "International Society for the History, Philosophy and Social Studies of biology, Porto", "Data Brokers in Broken Data Communities"
+  2025, "International Society for the History, Philosophy and Social Studies of biology, Porto", "Data Brokers in Broken Data Communities",
+  2026, "Research Data Alliance 26th Plenary","The Ethical Data Initiative",
+  2026, "Society for Philosophy of Science in Practice, Cambridge", "A Philosophy of Data Formats"
 
 ) %>% 
   brief_entries(
